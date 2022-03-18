@@ -70,8 +70,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(41, 100);
+            this.pictureBox1.MaximumSize = new System.Drawing.Size(12, 587);
+            this.pictureBox1.MinimumSize = new System.Drawing.Size(12, 587);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(12, 600);
+            this.pictureBox1.Size = new System.Drawing.Size(12, 587);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 

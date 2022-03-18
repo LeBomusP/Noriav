@@ -16,5 +16,24 @@ namespace Noriav
         {
             InitializeComponent();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (label1.Visible == false) 
+            {
+                label1.Show();
+                label2.Show();
+            }
+            else 
+            {
+                label1.Hide();
+                label2.Hide();
+            }
+        }
     }
 }
